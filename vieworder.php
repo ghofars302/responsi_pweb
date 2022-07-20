@@ -56,9 +56,11 @@
                                 foreach ($orders as $order) {
                                     if ($order != '') {
                                         echo $order . "<br/>";
+                                        $found = false;
                                         foreach ($price as $item) {
                                             if ($item['Item'] == $order) {
                                                 $total += $item['Price'];
+                                                $found = true;
                                             }
                                         }
                                     }
