@@ -1,0 +1,42 @@
+[
+    {
+        "Item": "nasi_goreng",
+        "Price": 10000
+    },
+    {
+        "Item": "nasi_Uduk",
+        "Price": 10000
+    },
+    {
+        "Item": "nasi_campur",
+        "Price": 10000
+    },
+    {
+        "Item": "nasi_ayam",
+        "Price": 10000
+    },
+    {
+        "Item": "nasi_perkedel",
+        "Price": 10000
+    },
+    {
+        "Item": "es_teh",
+        "Price": 10000
+    },
+    {
+        "Item": "es_jeruk",
+        "Price": 10000
+    },
+    {
+        "Item": "es_capucinno",
+        "Price": 10000
+    },
+    {
+        "Item": "es_manga",
+        "Price": 10000
+    },
+    {
+        "Item": "es_campur",
+        "Price": 10000
+    }
+]

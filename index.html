@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!--load style-->
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <!-- load work.js -->
+        <script type="text/javascript" src="work.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container light">
+                <h1>Rumah makan gk genah</h1>
+                <b>Harga terjangkau dan murah delivery</b>
+            </div>
+            <br/>
+        </header>
+        <main>
+            <div class="container light rounded">
+                <b>Daftar-Daftar Makanan</b>
+    
+                <table id="makanan" border="1">
+                    <tr>
+                        <td>No</td>
+                        <td>Nama</td>
+                        <td>Harga</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nasi Goreng</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="nasi_goreng" value="nasi_goreng"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nasi Uduk</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="nasi_uduk" value="nasi_uduk"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Nasi Campur</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="nasi_campur" value="nasi_campur"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Nasi Ayam</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="nasi_ayam" value="nasi_ayam"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Nasi Perkedel</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="nasi_perkedel" value="nasi_perkedel"></td>
+                    </tr>
+                </table>
+                <br/>
+    
+                <b>Daftar-Daftar Minuman</b>
+                <table id="minuman" border="1">
+                    <tr>
+                        <td>No</td>
+                        <td>Nama</td>
+                        <td>Harga</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Es Teh</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="es_teh" value="es_teh"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Es Jeruk</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="es_jeruk" value="es_jeruk"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Es Campur</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="es_campur" value="es_campur"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Es Capucinno</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="es_capucinno" value="es_capucinno"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Es Manga</td>
+                        <td>Rp. 10.000</td>
+                        <td><input type="checkbox" name="es_manga" value="es_manga"></td>
+                    </tr>
+                </table>
+                <br/>
+            </div>
+            <br/>
+            <div class="container light rounded">
+                <b>Form Pembelian Produk Makanan</b>
+                <!-- form -->
+                <form action="backend.php" method="post">
+                    <table>
+                        <tr>
+                            <td>Nama Lengkap</td>
+                            <td>:</td>
+                            <td><input type="text" name="nama" size="30" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td><input type="text" name="alamat" size="30" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="text" name="email" size="30" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>No. HP</td>
+                            <td>:</td>
+                            <td><input type="text" name="no_hp" size="30" maxlength="13" /></td>
+                        </tr>
+                        <tr>
+                            <td>Catantan</td>
+                            <td>:</td>
+                            <td><textarea name="komentar" cols="30" rows="5"></textarea></td>
+                        </tr>
+                    </table>
+                </form>
+                <button onclick="sendPHP()">Kirim Pesanan</button>
+                <br/>
+                <br/>
+            </div>
+        </main>
+        <footer>
+            <div class="container light">
+                <p>&copy; Copyright 2022 | Ghofar Raihananda Suprapto</p>
+            </div>
+        </footer>
+    </body>
+</html>

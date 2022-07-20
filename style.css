@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.dark {
+    background-color: darkgray;
+}
+
+.light {
+    background-color: rgb(227, 227, 227);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.text-center {
+    /* center the text inside div */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
